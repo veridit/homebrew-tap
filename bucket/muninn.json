@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "description": "Local-first memory recall for AI coding agents (jcode, Claude Code, Codex, MCP)",
+    "homepage": "https://github.com/veridit/muninn",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/veridit/muninn/releases/download/v0.2.0/muninn_0.2.0_windows_amd64.zip",
+            "hash": "4a2b904eae108ae942829308e6eef2e1d794da3dfdcf59e362b60a00c67e95b1",
+            "extract_dir": "muninn_0.2.0_windows_amd64"
+        },
+        "arm64": {
+            "url": "https://github.com/veridit/muninn/releases/download/v0.2.0/muninn_0.2.0_windows_arm64.zip",
+            "hash": "13ec39338b8c31e10c2f24d96bf03dca214a44f6d9c7f9b9d64ae6767e494eeb",
+            "extract_dir": "muninn_0.2.0_windows_arm64"
+        }
+    },
+    "bin": "muninn.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/veridit/muninn/releases/download/v$version/muninn_$version_windows_amd64.zip",
+                "extract_dir": "muninn_$version_windows_amd64"
+            },
+            "arm64": {
+                "url": "https://github.com/veridit/muninn/releases/download/v$version/muninn_$version_windows_arm64.zip",
+                "extract_dir": "muninn_$version_windows_arm64"
+            }
+        },
+        "hash": { "url": "https://github.com/veridit/muninn/releases/download/v$version/SHA256SUMS" }
+    }
+}
