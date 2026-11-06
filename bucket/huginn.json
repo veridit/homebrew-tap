@@ -1,0 +1,33 @@
+{
+    "version": "0.1.0",
+    "description": "Git-branch task tracker for people and agents",
+    "homepage": "https://github.com/veridit/huginn",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/veridit/huginn/releases/download/v0.1.0/huginn_0.1.0_windows_amd64.zip",
+            "hash": "f8ea29b1accfb9cdb808c72215d0bb5f77295e09772147438289ac6847294a21",
+            "extract_dir": "huginn_0.1.0_windows_amd64"
+        },
+        "arm64": {
+            "url": "https://github.com/veridit/huginn/releases/download/v0.1.0/huginn_0.1.0_windows_arm64.zip",
+            "hash": "53df1b9a4cc3d42cc33757ee2695c9466c758ee42ec89f1e15cf4cd417e457af",
+            "extract_dir": "huginn_0.1.0_windows_arm64"
+        }
+    },
+    "bin": "huginn.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/veridit/huginn/releases/download/v$version/huginn_$version_windows_amd64.zip",
+                "extract_dir": "huginn_$version_windows_amd64"
+            },
+            "arm64": {
+                "url": "https://github.com/veridit/huginn/releases/download/v$version/huginn_$version_windows_arm64.zip",
+                "extract_dir": "huginn_$version_windows_arm64"
+            }
+        },
+        "hash": { "url": "https://github.com/veridit/huginn/releases/download/v$version/SHA256SUMS" }
+    }
+}
