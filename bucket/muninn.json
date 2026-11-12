@@ -1,18 +1,18 @@
 {
-    "version": "0.5.4",
+    "version": "0.6.0",
     "description": "Local-first memory recall for AI coding agents (jcode, Claude Code, Codex, MCP)",
     "homepage": "https://github.com/veridit/hug/tree/main/muninn",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/veridit/hug/releases/download/muninn-v0.5.4/muninn_0.5.4_windows_amd64.zip",
-            "hash": "f57b4d8e97789f254e86c8d26adf7acac6fe2b92e1ade1ea4acc7ff6a57d0342",
-            "extract_dir": "muninn_0.5.4_windows_amd64"
+            "url": "https://github.com/veridit/hug/releases/download/muninn-v0.6.0/muninn_0.6.0_windows_amd64.zip",
+            "hash": "a576d2a370512ddd9d546f2b3007f5eff312e006e8bfdeb0916452369f49764d",
+            "extract_dir": "muninn_0.6.0_windows_amd64"
         },
         "arm64": {
-            "url": "https://github.com/veridit/hug/releases/download/muninn-v0.5.4/muninn_0.5.4_windows_arm64.zip",
-            "hash": "39fba48cc0decbcbde0404d99071d7cb385576dfc52a5a099c6d2a61b65c577b",
-            "extract_dir": "muninn_0.5.4_windows_arm64"
+            "url": "https://github.com/veridit/hug/releases/download/muninn-v0.6.0/muninn_0.6.0_windows_arm64.zip",
+            "hash": "b2ede78fca40a885d68bb8f1b02075afa79b31bca8e2b833d5f46c648e7da203",
+            "extract_dir": "muninn_0.6.0_windows_arm64"
         }
     },
     "bin": "muninn.exe",
