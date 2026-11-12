@@ -1,18 +1,18 @@
 {
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Git-branch task tracker for people and agents",
-    "homepage": "https://github.com/veridit/huginn",
+    "homepage": "https://github.com/veridit/hug/tree/main/huginn",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/veridit/huginn/releases/download/v0.1.4/huginn_0.1.4_windows_amd64.zip",
-            "hash": "63adcf710647600cbd34336dc5bf6fe48b31631f1fc80730f573ec630e3f1110",
-            "extract_dir": "huginn_0.1.4_windows_amd64"
+            "url": "https://github.com/veridit/hug/releases/download/huginn-v0.1.5/huginn_0.1.5_windows_amd64.zip",
+            "hash": "74dabfdd79ce16617f8d7cac666dceb8f7a53b8a5ca292144c875c7622977fff",
+            "extract_dir": "huginn_0.1.5_windows_amd64"
         },
         "arm64": {
-            "url": "https://github.com/veridit/huginn/releases/download/v0.1.4/huginn_0.1.4_windows_arm64.zip",
-            "hash": "1f32c3b880e17e33f0204e8cd2260aa90fb0fa7585f4790cb8ba09ff66b95aa2",
-            "extract_dir": "huginn_0.1.4_windows_arm64"
+            "url": "https://github.com/veridit/hug/releases/download/huginn-v0.1.5/huginn_0.1.5_windows_arm64.zip",
+            "hash": "42acc1c8637159c5954fa92fbc09765647cef3473cde02475b8b7663a6e4679a",
+            "extract_dir": "huginn_0.1.5_windows_arm64"
         }
     },
     "bin": "huginn.exe",
@@ -20,14 +20,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/veridit/huginn/releases/download/v$version/huginn_$version_windows_amd64.zip",
+                "url": "https://github.com/veridit/hug/releases/download/huginn-v$version/huginn_$version_windows_amd64.zip",
                 "extract_dir": "huginn_$version_windows_amd64"
             },
             "arm64": {
-                "url": "https://github.com/veridit/huginn/releases/download/v$version/huginn_$version_windows_arm64.zip",
+                "url": "https://github.com/veridit/hug/releases/download/huginn-v$version/huginn_$version_windows_arm64.zip",
                 "extract_dir": "huginn_$version_windows_arm64"
             }
         },
-        "hash": { "url": "https://github.com/veridit/huginn/releases/download/v$version/SHA256SUMS" }
+        "hash": { "url": "https://github.com/veridit/hug/releases/download/huginn-v$version/SHA256SUMS" }
     }
 }
