@@ -1,0 +1,33 @@
+{
+    "version": "0.7.0",
+    "description": "Memory and tasks for AI coding agents and people, in every harness",
+    "homepage": "https://github.com/veridit/hug",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/veridit/hug/releases/download/v0.7.0/hug_0.7.0_windows_amd64.zip",
+            "hash": "90f251c3656d4587056ca0945d1cd96c43a5c87cb26b63b775e832f314e8b008",
+            "extract_dir": "hug_0.7.0_windows_amd64"
+        },
+        "arm64": {
+            "url": "https://github.com/veridit/hug/releases/download/v0.7.0/hug_0.7.0_windows_arm64.zip",
+            "hash": "6a4a367c24699d197d3b11a460461d6b6ecdb005778e464625c40c2e59a321d0",
+            "extract_dir": "hug_0.7.0_windows_arm64"
+        }
+    },
+    "bin": ["hug.exe", "muninn.exe", "huginn.exe"],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/veridit/hug/releases/download/v$version/hug_$version_windows_amd64.zip",
+                "extract_dir": "hug_$version_windows_amd64"
+            },
+            "arm64": {
+                "url": "https://github.com/veridit/hug/releases/download/v$version/hug_$version_windows_arm64.zip",
+                "extract_dir": "hug_$version_windows_arm64"
+            }
+        },
+        "hash": { "url": "https://github.com/veridit/hug/releases/download/v$version/SHA256SUMS" }
+    }
+}
