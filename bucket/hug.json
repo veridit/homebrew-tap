@@ -1,18 +1,18 @@
 {
-    "version": "0.7.103",
+    "version": "0.7.104",
     "description": "Memory and tasks for AI coding agents and people, in every harness",
     "homepage": "https://github.com/veridit/hug",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/veridit/hug/releases/download/v0.7.103/hug_0.7.103_windows_amd64.zip",
-            "hash": "8ce5bfd1d7fb06e927a4febb4afb3a28173b2e3bf6d98e074a901be34c90372f",
-            "extract_dir": "hug_0.7.103_windows_amd64"
+            "url": "https://github.com/veridit/hug/releases/download/v0.7.104/hug_0.7.104_windows_amd64.zip",
+            "hash": "b97b764b52b9a3cbd3b9bd7a5417a45740d9fbafbcc2c114cc42c2659f771a2b",
+            "extract_dir": "hug_0.7.104_windows_amd64"
         },
         "arm64": {
-            "url": "https://github.com/veridit/hug/releases/download/v0.7.103/hug_0.7.103_windows_arm64.zip",
-            "hash": "195fde79b17d97ffcd50f7a6fb3f51a30320b10385b05577d1790ae954f6d118",
-            "extract_dir": "hug_0.7.103_windows_arm64"
+            "url": "https://github.com/veridit/hug/releases/download/v0.7.104/hug_0.7.104_windows_arm64.zip",
+            "hash": "6dddff7e54e90a68dfaa98c950067dfc6c9565555dda3f50f5afa184e7410d1c",
+            "extract_dir": "hug_0.7.104_windows_arm64"
         }
     },
     "bin": ["hug.exe", "muninn.exe", "huginn.exe"],
